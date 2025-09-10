@@ -24,7 +24,7 @@ st.title("Crop Tissue Analysis Interpretor")
 # st.image("I_0020DJa.PNG", width=1000, use_column_width=None, caption="Think It. We Tank It.")
 
 # --- Display Product Image ---
-product_img = Image.open("images/I_0020DJa.PNG")  # ✅ use relative path
+product_img = Image.open("images/I_0020DJa.png")  # ✅ use relative path
 st.image(product_img, width=1000, caption="Think It. We Tank It.")
 
 # Read the CSV file
